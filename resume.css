@@ -9,10 +9,6 @@ body {
     font-weight: 300;
     background-color: #F2F2F2;
     line-height: 1.5;
-    
-    
-    
-
 
 }
 
@@ -117,6 +113,12 @@ h3{
 
 /* Small screens */
 @media (min-width: 320px) and (max-width: 620px){
+
+    body {
+        
+        margin: 1.5em;  
+    
+    }
    
 h1{
     font-family: "Playfair Display", serif;
@@ -127,11 +129,29 @@ h1{
     padding-bottom: 0;
 
 }
-    p {
     
-        text-align: justify;
-         
-    }
+    /* Increasing font size for paragraphs in the about section */
+.about p {
+    font-size: 14px; /* Adjust the size as needed */
+    
+}
+
+.contact a {
+    font-size: 14px; /* Adjust the size as needed */
+  
+}
+/* For the experience section */
+.experience ul li {
+    font-size: 14px; /* Adjust the size as needed */
+    line-height: 1.5;
+
+}
+
+/* And for the education section */
+.education p {
+    font-size: 0.9em; /* Adjust the size as needed */
+}
+
     #title{
         font-family: "Playfair Display", serif;
         font-weight: 700;
@@ -150,21 +170,29 @@ h1{
     .skills{
         margin:0;
     }
+    .skills ul li{
+        font-size: 14px;
+    }
     .education{
         margin:0;
     }
-    
-    
+    .education p{
+        font-size: 14px;
+    }
 }
+
 
 /* Medium screens */
 @media (min-width: 620px) {
+    body {
+        font-size:1.1em;
+    }
     
     h1{
         font-family: "Playfair Display", serif;
         font-weight: 900;
         font-style: bold;
-        font-size:4em;
+        font-size:3em;
         margin-bottom: 0;
         padding-bottom: 0;
     
