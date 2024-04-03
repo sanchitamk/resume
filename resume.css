@@ -132,24 +132,24 @@ h1{
     
     /* Increasing font size for paragraphs in the about section */
 .about p {
-    font-size: 14px; /* Adjust the size as needed */
+    font-size: 16px; /* Adjust the size as needed */
     
 }
 
 .contact a {
-    font-size: 14px; /* Adjust the size as needed */
+    font-size: 16px; /* Adjust the size as needed */
   
 }
 /* For the experience section */
 .experience ul li {
-    font-size: 14px; /* Adjust the size as needed */
-    line-height: 1.5;
+    font-size: 16px; /* Adjust the size as needed */
+    line-height: 1.75;
 
 }
 
 /* And for the education section */
 .education p {
-    font-size: 0.9em; /* Adjust the size as needed */
+    font-size: 16px; /* Adjust the size as needed */
 }
 
     #title{
