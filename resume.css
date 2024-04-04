@@ -116,7 +116,7 @@ h3{
 
     body {
         
-        margin: 1.5em;  
+        margin: 1.2em;  
     
     }
    
@@ -124,12 +124,22 @@ h1{
     font-family: "Playfair Display", serif;
     font-weight: 900;
     font-style: bold;
-    font-size:1.6em;
+    font-size:1.8em;
     margin-bottom: 0;
     padding-bottom: 0;
 
 }
+h2{
     
+    font-size:1.4em;
+  
+
+}
+h3{
+    font-size:18px;
+}
+    
+
     /* Increasing font size for paragraphs in the about section */
 .about p {
     font-size: 16px; /* Adjust the size as needed */
@@ -137,13 +147,18 @@ h1{
 }
 
 .contact a {
-    font-size: 16px; /* Adjust the size as needed */
+    font-size: 14px; /* Adjust the size as needed */
   
 }
 /* For the experience section */
 .experience ul li {
     font-size: 16px; /* Adjust the size as needed */
     line-height: 1.75;
+
+}
+.experience p {
+    font-size: 16px; /* Adjust the size as needed */
+   
 
 }
 
@@ -156,7 +171,7 @@ h1{
         font-family: "Playfair Display", serif;
         font-weight: 700;
         font-style: bold;
-        font-size:1.2em;
+        font-size:1.4em;
         margin-top: 0;
         margin-bottom: 1.5em;
     
@@ -170,22 +185,25 @@ h1{
     .skills{
         margin:0;
     }
-    .skills ul li{
-        font-size: 14px;
+    .skills ul li {
+        font-size: 16px; /* Adjust the size as needed */
+        line-height: 1.75;
+    
     }
     .education{
         margin:0;
     }
     .education p{
-        font-size: 14px;
+        font-size: 16px;
     }
 }
 
 
 /* Medium screens */
-@media (min-width: 620px) {
+@media (min-width: 621px)and (max-width: 960px) {
     body {
-        font-size:1.1em;
+        font-size:1.2em;
+        margin:1em;
     }
     
     h1{
@@ -211,6 +229,7 @@ h1{
             margin-bottom: 1.5em;
         
         }
+        
     
     #main {
         display: flex;
@@ -222,13 +241,14 @@ h1{
     
     .about {
         order: 1; 
-        width: 55%;
+        width: 50%;
    
     }
 
     .contact {
         order: 2; 
-        width: 45%;
+        width: 50%;
+        
         
     }
     .skills ul {
@@ -282,7 +302,7 @@ h1{
         font-family: "Playfair Display", serif;
         font-weight: 900;
         font-style: bold;
-        font-size:6.5em;
+        font-size:6em;
         margin-bottom: 0;
         padding-bottom: 0;
     
