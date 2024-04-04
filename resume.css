@@ -9,43 +9,44 @@ body {
     font-weight: 300;
     background-color: #F2F2F2;
     line-height: 1.5;
-
 }
+
 
 header, section {
     margin: 20px;
 }
+
+
 .about{
 padding-bottom: 0.5em;
 }
-
 
 
 .contact a {
     color: black;
     text-decoration: underline; 
     padding-left: 10px; 
-    font-size: 0.9em;
-    
-    
+    font-size: 0.9em;  
 }
 
-.education p {
-    
+
+.education p { 
     margin-top: 0;
-    padding-top: 0;
-    
+    padding-top: 0;   
 }
+
+
 li{
     font-size:0.8em;
     padding-left: 0.2em;
-
 }
+
+
 ul{
-   
-    padding-left: 1em;
-
+    padding-left: 1.3em;
 }
+
+
 p{
     font-size:0.8em;
 }
@@ -60,6 +61,7 @@ h2{
     padding-bottom: 0;
 }
 
+
 h3{
     font-family:"Open Sans";
     font-weight: 700;
@@ -69,15 +71,13 @@ h3{
     padding-bottom: 0;
 }
 
-.contact{
-  
-    
+
+.contact{ 
     padding-bottom: 0.5em;
 }
 
-.employer{
-  
-    
+
+.employer{ 
     font-family: "Open Sans";
     font-weight: 500;
     font-style: bold;
@@ -86,86 +86,86 @@ h3{
     padding-top: 0.8em;
 }
 
+
 .projects{
-  
-    
     padding-bottom: 0.5em;
 }
-.experience{
-  
-    
+
+
+.experience{  
     padding-bottom: 0.5em;
 }
+
+
 .education{
-  
-    
     padding-bottom: 2em;
 }
 
-.skills{
-  
-    
+
+.skills{  
     padding-bottom: 0.5em;
 }
+
+
 
 
 /* Media queries for different screen sizes */
 
+
+
 /* Small screens */
 @media (min-width: 320px) and (max-width: 620px){
 
-    body {
-        
+    body {  
         margin: 1.2em;  
-    
     }
    
-h1{
-    font-family: "Playfair Display", serif;
-    font-weight: 900;
-    font-style: bold;
-    font-size:1.8em;
-    margin-bottom: 0;
-    padding-bottom: 0;
 
-}
-h2{
-    
-    font-size:1.4em;
-  
+    h1{
+        font-family: "Playfair Display", serif;
+        font-weight: 900;
+        font-style: bold;
+        font-size:1.8em;
+        margin-bottom: 0;
+        padding-bottom: 0;
+    }
 
-}
-h3{
-    font-size:18px;
-}
-    
 
-    /* Increasing font size for paragraphs in the about section */
-.about p {
-    font-size: 16px; /* Adjust the size as needed */
-    
-}
+    h2{
+        font-size:1.4em;
+    }
 
-.contact a {
-    font-size: 14px; /* Adjust the size as needed */
-  
-}
-/* For the experience section */
-.experience ul li {
-    font-size: 16px; /* Adjust the size as needed */
-    line-height: 1.75;
 
-}
-.experience p {
-    font-size: 16px; /* Adjust the size as needed */
-   
+    h3{
+        font-size:18px;
+    }
+        
 
-}
+    .about p {
+        font-size: 16px;  
+    }
 
-/* And for the education section */
-.education p {
-    font-size: 16px; /* Adjust the size as needed */
-}
+
+    .contact a {
+        font-size: 14px; 
+    }
+
+
+    .experience ul li {
+        font-size: 16px; 
+        line-height: 1.75;
+    }
+
+
+    .experience p {
+        font-size: 16px; 
+    }
+
+
+    .education p {
+        font-size: 16px; 
+    }
+
 
     #title{
         font-family: "Playfair Display", serif;
@@ -174,38 +174,46 @@ h3{
         font-size:1.4em;
         margin-top: 0;
         margin-bottom: 1.5em;
-    
     }
 
+
     #main {
-    
         margin:0;
-        
     }
+
+
     .skills{
         margin:0;
     }
+
+
     .skills ul li {
-        font-size: 16px; /* Adjust the size as needed */
+        font-size: 16px; 
         line-height: 1.75;
-    
     }
+
+
     .education{
         margin:0;
     }
+
+
     .education p{
         font-size: 16px;
     }
+
+
 }
 
 
 /* Medium screens */
-@media (min-width: 621px)and (max-width: 960px) {
+@media (min-width: 621px) and (max-width: 960px) {
     body {
         font-size:1.2em;
         margin:1em;
     }
     
+
     h1{
         font-family: "Playfair Display", serif;
         font-weight: 900;
@@ -213,83 +221,80 @@ h3{
         font-size:3em;
         margin-bottom: 0;
         padding-bottom: 0;
-    
     }
-        p {
-        
-            text-align: justify;
-             
-        }
-        #title{
-            font-family: "Playfair Display", serif;
-            font-weight: 700;
-            font-style: bold;
-            font-size:1.6em;
-            margin-top: 0;
-            margin-bottom: 1.5em;
-        
-        }
-        
+
+
+    p {
+        text-align: justify;     
+    }
+
+
+    #title{
+        font-family: "Playfair Display", serif;
+        font-weight: 700;
+        font-style: bold;
+        font-size:1.6em;
+        margin-top: 0;
+        margin-bottom: 1.5em;
+    }
+    
     
     #main {
         display: flex;
         justify-content: space-between;
         word-wrap: wrap-reverse;
-        margin:0;
-        
+        margin:0 
     }
     
+
     .about {
         order: 1; 
         width: 50%;
-   
     }
+
 
     .contact {
         order: 2; 
-        width: 50%;
-        
-        
+        width: 50%;  
     }
+
+
     .skills ul {
         columns: 2; 
         -webkit-columns: 2; 
         -moz-columns: 2; 
         column-gap:0; 
-       
-       
-    
     }
 
+
     .skills li {
-        width:80%
-        
+        width:80% 
     }
+
+
     .main2 {
         display: flex;
         justify-content:space-around;
-        margin:0;
-        
+        margin:0;  
     }
     
+
     .skills {
         order: 1; 
         width: 55%;
-   
     }
+
 
     .education {
         order: 2; 
-        width: 45%;
-        
+        width: 45%;    
     }
-    }
+
+
+}
 
     
     
-  
-
-
 
 /* Large screens */
 @media (min-width: 961px) {
@@ -299,6 +304,7 @@ h3{
         margin: 3em;
     }
     
+
     h1{
         font-family: "Playfair Display", serif;
         font-weight: 900;
@@ -306,80 +312,79 @@ h3{
         font-size:6em;
         margin-bottom: 0;
         padding-bottom: 0;
-    
     }
-        p {
-        
-            text-align: justify;
-        
-                font-size:1.5em;
-            
-             
-        }
-        #title{
-            font-family: "Playfair Display", serif;
-            font-weight: 700;
-            font-style: bold;
-            font-size:2.4em;
-            margin-top: 0;
-            margin-bottom: 1.5em;
-        
-        }
-        li{
-            font-size:1.5em;
-            padding-left: 0.2em;
-        
-        }
 
-        h2{
-            font-family: "Playfair Display", serif;
-            font-weight: 700;
-            font-style: bold;
-            font-size:2.2em;
-            margin-bottom: 0;
-            padding-bottom: 0;
-        }
-        
-        h3{
-            font-family: "Open Sans";
-            font-weight: 600;
-            font-style: bold;
-            font-size:1.8em;
-            margin-bottom: 0;
-            padding-bottom: 0;
-        }
-        .about {
-            padding-right:2em;
-            margin:0
-       
-        }
-        .contact {
-           
-            margin:0
-       
-        }
 
-        .skills {
-           
-            margin:0
-       
-        }
+    p {
+        text-align: justify;
+        font-size:1.5em;       
+    }
 
-        .education {
-           
-            margin:0;
-       
-        }
 
-        .employer{
-  
+    #title{
+        font-family: "Playfair Display", serif;
+        font-weight: 700;
+        font-style: bold;
+        font-size:2.4em;
+        margin-top: 0;
+        margin-bottom: 1.5em;
+    }
+
+
+    li{
+        font-size:1.5em;
+        padding-left: 0.2em;
+    }
+
+
+    h2{
+        font-family: "Playfair Display", serif;
+        font-weight: 700;
+        font-style: bold;
+        font-size:2.2em;
+        margin-bottom: 0;
+        padding-bottom: 0;
+    }
+
     
-            font-family: "Open Sans";
-            font-weight: 500;
-            font-style: bold;
-            font-size:1.5em;
-            
-        }
+    h3{
+        font-family: "Open Sans";
+        font-weight: 600;
+        font-style: bold;
+        font-size:1.8em;
+        margin-bottom: 0;
+        padding-bottom: 0;
+    }
+
+
+    .about {
+        padding-right:2em;
+        margin:0
+    }
+
+
+    .contact {  
+        margin:0
+    }
+
+
+    .skills {   
+        margin:0
+    }
+
+
+    .education { 
+        margin:0;
+    }
+
+
+    .employer{
+        font-family: "Open Sans";
+        font-weight: 500;
+        font-style: bold;
+        font-size:1.5em; 
+    }
+
 
 }
 
