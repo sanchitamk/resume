@@ -292,10 +292,11 @@ h3{
 
 
 /* Large screens */
-@media (min-width: 960px) {
+@media (min-width: 961px) {
 
     body{
         line-height: 1.75;
+        margin: 3em;
     }
     
     h1{
@@ -349,6 +350,24 @@ h3{
         }
         .about {
             padding-right:2em;
+            margin:0
+       
+        }
+        .contact {
+           
+            margin:0
+       
+        }
+
+        .skills {
+           
+            margin:0
+       
+        }
+
+        .education {
+           
+            margin:0;
        
         }
 
